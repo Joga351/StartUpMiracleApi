@@ -1,7 +1,7 @@
 languaje: csharp
 mono: none
 dotnet: 3.1
-solution: TravisMiracle.sln
+solution: README.md
 
 install: 
   - dolnet restore
@@ -29,12 +29,3 @@ deploy:
   skip_cleanup: true
   on:
     tags: true
-    
-    
-    
-    
-    
-    
-    
-    
-    
